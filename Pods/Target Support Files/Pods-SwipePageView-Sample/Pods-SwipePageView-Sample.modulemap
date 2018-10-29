@@ -1,0 +1,6 @@
+framework module Pods_SwipePageView_Sample {
+  umbrella header "Pods-SwipePageView-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
