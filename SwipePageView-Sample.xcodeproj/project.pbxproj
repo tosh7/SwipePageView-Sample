@@ -14,6 +14,7 @@
 		2B08F0C12185BD8F00A53268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B08F0BF2185BD8F00A53268 /* LaunchScreen.storyboard */; };
 		2B08F0CC2185BD8F00A53268 /* SwipePageView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F0CB2185BD8F00A53268 /* SwipePageView_SampleTests.swift */; };
 		2B08F0D72185BD8F00A53268 /* SwipePageView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B08F0D62185BD8F00A53268 /* SwipePageView_SampleUITests.swift */; };
+		2BF54F682187969100FF131D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF54F672187969100FF131D /* ContentViewController.swift */; };
 		99DBE80C8E753666BB65189D /* Pods_SwipePageView_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2001A4409102D48832B364 /* Pods_SwipePageView_SampleUITests.framework */; };
 		9E1BDCC789C3FFDC3C6F1BFE /* Pods_SwipePageView_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457BE768CD3260192D1D8D2 /* Pods_SwipePageView_SampleTests.framework */; };
 		AAA0C6F154CCDD01DD9ACDDB /* Pods_SwipePageView_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781901387B5849180EFC44D /* Pods_SwipePageView_Sample.framework */; };
@@ -54,6 +55,7 @@
 		2B08F0D82185BD8F00A53268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B08F0E52185BE4600A53268 /* SwipeMenuViewController.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwipeMenuViewController.framework.dSYM; path = Carthage/Build/iOS/SwipeMenuViewController.framework.dSYM; sourceTree = "<group>"; };
 		2B08F0E72185BE5A00A53268 /* SwipeMenuViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwipeMenuViewController.framework; path = Carthage/Build/iOS/SwipeMenuViewController.framework; sourceTree = "<group>"; };
+		2BF54F672187969100FF131D /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		36742F253DBDB90D5291CC24 /* Pods-SwipePageView-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipePageView-SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipePageView-SampleTests/Pods-SwipePageView-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DDF6A6871775014C51068F5 /* Pods-SwipePageView-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipePageView-SampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipePageView-SampleTests/Pods-SwipePageView-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F2001A4409102D48832B364 /* Pods_SwipePageView_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipePageView_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				2B08F0B62185BD8F00A53268 /* AppDelegate.swift */,
 				2B08F0B82185BD8F00A53268 /* ViewController.swift */,
 				2B08F0BA2185BD8F00A53268 /* Main.storyboard */,
+				2BF54F672187969100FF131D /* ContentViewController.swift */,
 				2B08F0BD2185BD8F00A53268 /* Assets.xcassets */,
 				2B08F0BF2185BD8F00A53268 /* LaunchScreen.storyboard */,
 				2B08F0C22185BD8F00A53268 /* Info.plist */,
@@ -396,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B08F0B92185BD8F00A53268 /* ViewController.swift in Sources */,
+				2BF54F682187969100FF131D /* ContentViewController.swift in Sources */,
 				2B08F0B72185BD8F00A53268 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
